@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Banco App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Banco Digital</h1>
+
+    <div class="saldo">
+      <h2>Saldo: <span id="valor-saldo">0,00</span></h2>
+    </div>
+
+    <div class="formulario">
+      <input type="number" id="valor" placeholder="Digite um valor" />
+      <div class="botoes">
+        <button id="btn-depositar">Depositar</button>
+        <button id="btn-sacar">Sacar</button>
+      </div>
+    </div>
+
+    <div class="extrato">
+      <h3>Extrato</h3>
+      <ul id="lista-extrato"></ul>
+    </div>
+  </div>a
+  <script type="module" src="./dist/index.js"></script>
+</body>
+</html>

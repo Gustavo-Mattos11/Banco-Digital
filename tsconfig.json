@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                          // Código JavaScript gerado será ES6+
+    "module": "esnext",                          // Usa módulos ES6 (compatível com browsers modernos)
+    "strict": true,                           // Ativa todas as verificações estritas
+    "outDir": "./dist",                       // Saída dos arquivos JS compilados
+    "rootDir": "./src",                       // Onde estão os arquivos TypeScript
+    "esModuleInterop": true,                  // Suporte para importações de módulos CommonJS
+    "forceConsistentCasingInFileNames": true, // Garante consistência nos nomes dos arquivos
+    "moduleResolution": "node",               // Resolve importações como no Node.js
+    "allowJs": false,                         // Apenas arquivos TypeScript
+    "noEmitOnError": true,                     // Só gera arquivos JS se não houver erro TS
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
